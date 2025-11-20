@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(150deg, #6a11cb, #2575fc);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form-section {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+}
+
+.form-section input,
+.form-section textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.form-section button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.list-section {
+    background: rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.review-card {
+    background: rgba(255,255,255,0.2);
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 12px;
+}
