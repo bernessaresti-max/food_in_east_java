@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Kuliner Jawa Timur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Review Kuliner Jawa Timur</h1>
+    </header>
+
+    <section class="form-section">
+        <input id="name" type="text" placeholder="Nama kamu">
+        <input id="food" type="text" placeholder="Nama makanan">
+        <textarea id="review" placeholder="Tulis ulasan kamu..."></textarea>
+        <button onclick="addReview()">Kirim Ulasan</button>
+    </section>
+
+    <section class="list-section">
+        <h2>Semua Ulasan</h2>
+        <div id="reviews-list"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
